@@ -1,0 +1,2 @@
+# Qkmaxware.Filesystem
+Just some useful extensions for FileSystemInfo objects. Just add the package to use it, all extensions stored in the System.IO namespace so there is no need to add another namespace reference besides the one used normally to access FileInfo and DirectoryInfo. 

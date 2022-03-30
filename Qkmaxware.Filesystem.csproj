@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>8.0</LangVersion>
+    <PackageId>Qkmaxware.Filesystem</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Colin Halseth</Authors>
+    <PackageTags>filesystem</PackageTags>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/qkmaxware/Qkmaxware.Filesystem.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageDescription>
+      Qkmaxware.Filesystem contains useful extension methods for dealing with FileSystemInfo objects.
+    </PackageDescription>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.md" CopyToOutputDirectory="Always" Pack="true" PackagePath="$(PackageLicenseFile)"/>
+  </ItemGroup>
+
+</Project>
